@@ -106,8 +106,8 @@
 				<li>Ground</li>
 			</sowTags>
 			<maxMeshCount>9</maxMeshCount>
-			<visualSizeRange>0.4~0.7</visualSizeRange>
-			<topWindExposure>0.2</topWindExposure>
+			<visualSizeRange>0.3~0.48</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>20</wildClusterWeight>
 			<wildOrder>1</wildOrder>
@@ -235,34 +235,6 @@
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
-		<defName>RG_Plant_RimbayWillow</defName>
-		<label>rimbay willow</label>
-		<description>Often called " fireweed" by tribal societies on Rimworlds. Rimbay Willow grows in tundra biomes and can be used for herbal remedies.</description>
-		<statBases>
-			<MaxHitPoints>120</MaxHitPoints>
-			<Flammability>0.6</Flammability>
-			<Nutrition>0.35</Nutrition>
-		</statBases>
-		<graphicData>
-			<texPath>Things/Plant/RimbayWillow</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<ingestible/>
-		<plant>
-			<fertilityMin>0.05</fertilityMin>
-			<fertilitySensitivity>0.2</fertilitySensitivity>
-			<growDays>15</growDays>
-			<harvestWork>75</harvestWork>
-			<maxMeshCount>16</maxMeshCount>
-			<visualSizeRange>0.8~1.4</visualSizeRange>
-			<topWindExposure>0.3</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>3</wildClusterWeight>
-			<wildOrder>1</wildOrder>
-		</plant>
-	</ThingDef>
-	<ThingDef ParentName="PlantBase">
 		<defName>RG_Hygrophorus</defName>
 		<label>hygrophorus</label>
 		<description>A tiny purple and uneatable mushroom growing in small clusters. It can be found exclusively in tundra biomes.</description>
@@ -299,7 +271,7 @@
 			<texPath>Things/Plant/YellowTreePine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
-				<volume>(0.15, 0.3, 0.15)</volume>
+				<volume>(0.10, 0.3, 0.10)</volume>
 				<offset>(0,0,-0.38)</offset>
 			</shadowData>
 		</graphicData>

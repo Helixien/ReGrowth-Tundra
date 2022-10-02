@@ -22,11 +22,10 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
 				<value>
-					<RG_Plant_TundraGrass>10</RG_Plant_TundraGrass>
+					<RG_Plant_TundraGrass>20</RG_Plant_TundraGrass>
 					<RG_Plant_TundraTallGrass>5</RG_Plant_TundraTallGrass>
 					<RG_Plant_CrimsonCushion>5</RG_Plant_CrimsonCushion>
 					<RG_Plant_TundraCotton>0.6</RG_Plant_TundraCotton>
-					<RG_Plant_RimbayWillow>0.4</RG_Plant_RimbayWillow>
 					<RG_Plant_Saxifraga>0.5</RG_Plant_Saxifraga>
 					<RG_Plant_LupineIceland>0.5</RG_Plant_LupineIceland>
 					<RG_Plant_BramblesRed>0.8</RG_Plant_BramblesRed>
@@ -34,6 +33,12 @@
 					<RG_Plant_YellowTreePine>0.05</RG_Plant_YellowTreePine>
 					<RG_Hygrophorus>0.025</RG_Hygrophorus>
 				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants/Plant_Grass</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants/Plant_TallGrass</xpath>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
