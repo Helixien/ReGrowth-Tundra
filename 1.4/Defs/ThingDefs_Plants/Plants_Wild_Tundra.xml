@@ -235,35 +235,63 @@
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
-		<defName>RG_Hygrophorus</defName>
-		<label>hygrophorus</label>
-		<description>A tiny purple and uneatable mushroom growing in small clusters. It can be found exclusively in tundra biomes.</description>
+		<defName>RG_Taztakus</defName>
+		<label>taztakus</label>
+		<description>A tiny redish cup-shaped mushroom growing in small clusters in volcanic biomes.</description>
 		<graphicData>
-			<texPath>Things/Plant/Hygrophorus</texPath>
+			<texPath>Things/Plant/Taztakus</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
-			<Beauty>2</Beauty>
 			<Nutrition>0.4</Nutrition>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 		</statBases>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
-		<pathCost>5</pathCost>
+		<pathCost>15</pathCost>
 		<ingestible/>
 		<plant>
 			<fertilityMin>0.04</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>45</growDays>
+			<growDays>22</growDays>
 			<maxMeshCount>4</maxMeshCount>
 			<dieIfLeafless>true</dieIfLeafless>
+			<harvestYield>35</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawFungus</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
-			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
 			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
+		<defName>RG_Tree_TundraTreePine</defName>
+		<label>pine tree</label>
+		<description>A large conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
+		<graphicData>
+			<texPath>Things/Plant/TundraPine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.12, 0.3, 0.12)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>20</growDays>
+			<visualSizeRange>1.1~2.5</visualSizeRange>
+			<harvestWork>800</harvestWork>
+			<harvestYield>27</harvestYield>
+		</plant>
+	</ThingDef>
+	<!--	<ThingDef ParentName="TreeBase">
 		<defName>RG_Plant_YellowTreePine</defName>
 		<label>pine tree</label>
 		<description>A rare yellowish conifer. Being very frost-resistant it grows only in tundra and cold bog regions.</description>
@@ -286,5 +314,5 @@
 			<harvestWork>750</harvestWork>
 			<harvestYield>10</harvestYield>
 		</plant>
-	</ThingDef>
+	</ThingDef>-->
 </Defs>
