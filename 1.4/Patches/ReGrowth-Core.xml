@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Core</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ResearchTabDef>
+							<defName>RG_ReGrowth</defName>
+							<label>ReGrowth</label>
+						</ResearchTabDef>
+						<!--=============== Mushroom Cultivation ==============-->
+						<ResearchProjectDef>
+							<defName>RG_MushroomCultivation</defName>
+							<label>mushroom cultivation</label>
+							<description>Cultivate and grow wild mushrooms.</description>
+							<baseCost>600</baseCost>
+							<techLevel>Neolithic</techLevel>
+							<tab>RG_ReGrowth</tab>
+							<tags>
+								<li>TribalStart</li>
+							</tags>
+							<researchViewX>0.00</researchViewX>
+							<researchViewY>1.40</researchViewY>
+						</ResearchProjectDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<!--=============== Tundra Terrain ==============-->
+						<TerrainDef ParentName="NaturalTerrainBase">
+							<defName>RG_TundraSoil</defName>
+							<label>moss-covered soil</label>
+							<texturePath>Terrain/Surfaces/TundraSoil</texturePath>
+							<edgeType>FadeRough</edgeType>
+							<renderPrecedence>340</renderPrecedence>
+							<pathCost>2</pathCost>
+							<statBases>
+								<Beauty>-1</Beauty>
+								<Cleanliness>-1</Cleanliness>
+							</statBases>
+							<scatterType>Rocky</scatterType>
+							<affordances>
+								<li>Light</li>
+								<li>Medium</li>
+								<li>Heavy</li>
+								<li>GrowSoil</li>
+								<li>Diggable</li>
+							</affordances>
+							<generatedFilth>Filth_Dirt</generatedFilth>
+							<fertility>1.0</fertility>
+							<takeFootprints>True</takeFootprints>
+							<tools>
+								<li>
+									<label>dirt</label>
+									<capacities>
+										<li>KickMaterialInEyes</li>
+									</capacities>
+									<hediff>DirtInEyes</hediff>
+									<cooldownTime>1.5</cooldownTime>
+								</li>
+							</tools>
+						</TerrainDef>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>

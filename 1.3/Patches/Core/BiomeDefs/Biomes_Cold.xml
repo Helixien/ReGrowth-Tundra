@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "Tundra"]/terrainsByFertility</xpath>
+                    <value>
+						<terrainsByFertility>
+							<li>
+								<terrain>RG_TundraSoil</terrain>
+								<min>-999</min>
+								<max>0.87</max>
+							</li>
+							<li>
+								<terrain>SoilRich</terrain>
+								<min>0.87</min>
+								<max>999</max>
+							</li>
+						</terrainsByFertility>
+						</value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+                    <value>
+						<RG-T_Plant_TundraGrass>10</RG-T_Plant_TundraGrass>
+						<RG-T_Plant_TundraTallGrass>5</RG-T_Plant_TundraTallGrass>
+						<RG-T_Plant_CrimsonCushion>5</RG-T_Plant_CrimsonCushion>
+						<RG-T_Plant_TundraCotton>0.6</RG-T_Plant_TundraCotton>
+						<RG-T_Plant_RimbayWillow>0.4</RG-T_Plant_RimbayWillow>
+						<RG-T_Plant_Saxifraga>0.5</RG-T_Plant_Saxifraga>
+                        <RG-T_Plant_LupineIceland>0.5</RG-T_Plant_LupineIceland>
+                        <RG-T_Plant_BramblesRed>0.8</RG-T_Plant_BramblesRed>
+                        <RG-T_Plant_BramblesYellow>0.8</RG-T_Plant_BramblesYellow>
+						<RG-T_Plant_YellowTreePine>0.05</RG-T_Plant_YellowTreePine>
+						<RG-T_Hygrophorus>0.025</RG-T_Hygrophorus>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+                    <value>
+                        <RG-T_Plant_LupineIceland>0.2</RG-T_Plant_LupineIceland>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+                    <value>
+                        <RG-T_Plant_LupineIceland>0.1</RG-T_Plant_LupineIceland>
+						<RG-T_Plant_YellowTreePine>0.02</RG-T_Plant_YellowTreePine>
+						<RG-T_Plant_CrimsonCushion>0.5</RG-T_Plant_CrimsonCushion>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
