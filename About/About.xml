@@ -10,6 +10,14 @@
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2107412614</url>
 	<packageId>ReGrowth.BOTR.TundraExpansion</packageId>
 	<description>Check the workshop page for information.</description>
+	<modDependencies>
+		<li>
+			<displayName>ReGrowth: Core</displayName>
+			<packageId>ReGrowth.BOTR.Core</packageId>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</steamWorkshopUrl>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2260097569</downloadUrl>
+		</li>
+	</modDependencies>
 	<loadAfter>
 		<li>ReGrowth.BOTR.Core</li>
 	</loadAfter>
