@@ -49,9 +49,9 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
 				<value>
-					<RG_Plant_LupineIceland>0.1</RG_Plant_LupineIceland>
+<!--					<RG_Plant_LupineIceland>0.1</RG_Plant_LupineIceland>
 					<RG_Tree_TundraTreePine>0.02</RG_Tree_TundraTreePine>
-					<RG_Plant_CrimsonCushion>0.5</RG_Plant_CrimsonCushion>
+					<RG_Plant_CrimsonCushion>0.5</RG_Plant_CrimsonCushion>-->
 				</value>
 			</li>
 		</operations>
