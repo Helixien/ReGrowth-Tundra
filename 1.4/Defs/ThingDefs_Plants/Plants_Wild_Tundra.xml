@@ -102,6 +102,8 @@
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<growDays>4.6</growDays>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowResearchPrerequisites/>
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
