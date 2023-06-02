@@ -87,7 +87,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Plant_TundraCotton</defName>
 		<label>tundra cotton</label>
-		<description>A small flower with large cotton looking balls. Being very frost-resistant it grows only in tundra regions.</description>
+		<description>A small flower with large cotton balls. Being very frost-resistant it grows only in tundra regions.</description>
 		<graphicData>
 			<texPath>Things/Plant/TundraCotton</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -107,6 +107,9 @@
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
+			<harvestYield>2</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Cloth</harvestedThingDef>
 			<maxMeshCount>9</maxMeshCount>
 			<visualSizeRange>0.3~0.48</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
