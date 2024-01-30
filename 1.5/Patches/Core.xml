@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BiomeDef[defName = "Tundra"]/terrainsByFertility</xpath>
+				<value>
+					<terrainsByFertility>
+						<li>
+							<terrain>RG_TundraSoil</terrain>
+							<min>-999</min>
+							<max>0.87</max>
+						</li>
+						<li>
+							<terrain>SoilRich</terrain>
+							<min>0.87</min>
+							<max>999</max>
+						</li>
+					</terrainsByFertility>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_TundraGrass>20</RG_Plant_TundraGrass>
+					<RG_Plant_TundraTallGrass>5</RG_Plant_TundraTallGrass>
+					<RG_Plant_CrimsonCushion>5</RG_Plant_CrimsonCushion>
+					<RG_Plant_TundraCotton>0.6</RG_Plant_TundraCotton>
+					<RG_Plant_Saxifraga>0.5</RG_Plant_Saxifraga>
+					<RG_Plant_LupineIceland>0.5</RG_Plant_LupineIceland>
+					<RG_Plant_BramblesRed>0.8</RG_Plant_BramblesRed>
+					<RG_Plant_BramblesYellow>0.8</RG_Plant_BramblesYellow>
+					<RG_Tree_TundraTreePine>0.22</RG_Tree_TundraTreePine>
+					<RG_Taztakus>0.05</RG_Taztakus>
+					<RG_Plant_Taztakus>0.000000000000001</RG_Plant_Taztakus>
+					<!--=============== Why the 0s? Because I cant lock them to a biome unless the value is greater than 0 because fuck me I gues... ==============-->
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants/Plant_Grass</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants/Plant_TallGrass</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+				<value>
+					<RG_Plant_LupineIceland>0.2</RG_Plant_LupineIceland>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+				<value>
+					<!--					<RG_Plant_LupineIceland>0.1</RG_Plant_LupineIceland>
+					<RG_Tree_TundraTreePine>0.02</RG_Tree_TundraTreePine>
+					<RG_Plant_CrimsonCushion>0.5</RG_Plant_CrimsonCushion>-->
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

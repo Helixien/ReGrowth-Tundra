@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_Taztakus</defName>
+		<label>taztakus</label>
+		<description>A tiny redish cup-shaped mushroom growing in small clusters in volcanic biomes.</description>
+		<graphicData>
+			<texPath>Things/Plant/Taztakus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.4</Nutrition>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>15</pathCost>
+		<ingestible/>
+		<plant>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+				<li>VPE_Mushroom</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>RG_MushroomCultivation</li>
+			</sowResearchPrerequisites>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<fertilityMin>0.02</fertilityMin>
+			<fertilitySensitivity>0.15</fertilitySensitivity>
+			<growDays>16</growDays>
+			<maxMeshCount>4</maxMeshCount>
+			<sowMinSkill>8</sowMinSkill>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestYield>32</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawFungus</harvestedThingDef>
+			<neverBlightable>true</neverBlightable>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
+		</plant>
+	</ThingDef>
+</Defs>

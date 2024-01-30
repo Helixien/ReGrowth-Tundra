@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Aspen</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="RG_AspenForest"]/wildPlants</xpath>
+					<value>
+						<RG_Tree_TundraTreePine>0.25</RG_Tree_TundraTreePine>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
