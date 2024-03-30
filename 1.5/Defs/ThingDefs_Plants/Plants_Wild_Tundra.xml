@@ -279,9 +279,9 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>RG_Tree_TundraTreePine</defName>
 		<label>pine tree</label>
-		<description>A large conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
+		<description>A large yellow conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
 		<graphicData>
-			<texPath>Things/Plant/TundraPine</texPath>
+			<texPath>Things/Plant/TundraPineTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.12, 0.3, 0.12)</volume>
@@ -297,31 +297,8 @@
 			<growDays>20</growDays>
 			<visualSizeRange>1.1~2.5</visualSizeRange>
 			<harvestWork>800</harvestWork>
-			<harvestYield>27</harvestYield>
+			<harvestYield>23</harvestYield>
+			<immatureGraphicPath>Things/Plant/_Immature/TundraPineTree_Immature</immatureGraphicPath>
 		</plant>
 	</ThingDef>
-	<!--	<ThingDef ParentName="TreeBase">
-		<defName>RG_Plant_YellowTreePine</defName>
-		<label>pine tree</label>
-		<description>A rare yellowish conifer. Being very frost-resistant it grows only in tundra and cold bog regions.</description>
-		<graphicData>
-			<texPath>Things/Plant/YellowTreePine</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.10, 0.3, 0.10)</volume>
-				<offset>(0,0,-0.38)</offset>
-			</shadowData>
-		</graphicData>
-		<statBases>
-			<Beauty>8</Beauty>
-			<Nutrition>0.6</Nutrition>
-		</statBases>
-		<ingestible/>
-		<plant>
-			<growDays>35</growDays>
-			<visualSizeRange>1.5~2.8</visualSizeRange>
-			<harvestWork>750</harvestWork>
-			<harvestYield>10</harvestYield>
-		</plant>
-	</ThingDef>-->
 </Defs>
