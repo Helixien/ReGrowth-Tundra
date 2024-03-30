@@ -281,7 +281,7 @@
 		<label>pine tree</label>
 		<description>A large yellow conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
 		<graphicData>
-			<texPath>Things/Plant/TundraPineTree</texPath>
+			<texPath>Things/Plant/TundraTreePine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.12, 0.3, 0.12)</volume>
