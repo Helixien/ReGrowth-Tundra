@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: ReTextures</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- ================================ HD Brambles ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="RG_Plant_BramblesYellow" or defName="RG_Plant_BramblesRed"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Brambles_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
