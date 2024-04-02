@@ -6,7 +6,6 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-			<!-- ================================ HD Brambles ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="RG_Plant_BramblesYellow" or defName="RG_Plant_BramblesRed"]/plant/leaflessGraphicPath</xpath>
 				<value>
