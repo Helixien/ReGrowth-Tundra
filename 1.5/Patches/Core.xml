@@ -2,23 +2,6 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/BiomeDef[defName = "Tundra"]/terrainsByFertility</xpath>
-				<value>
-					<terrainsByFertility>
-						<li>
-							<terrain>RG_TundraSoil</terrain>
-							<min>-999</min>
-							<max>0.87</max>
-						</li>
-						<li>
-							<terrain>SoilRich</terrain>
-							<min>0.87</min>
-							<max>999</max>
-						</li>
-					</terrainsByFertility>
-				</value>
-			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
 				<value>
