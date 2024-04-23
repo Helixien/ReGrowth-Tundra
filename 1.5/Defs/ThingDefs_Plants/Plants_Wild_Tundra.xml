@@ -95,7 +95,7 @@
 		<hideAtSnowDepth>0.7</hideAtSnowDepth>
 		<statBases>
 			<MaxHitPoints>95</MaxHitPoints>
-			<Beauty>5</Beauty>
+			<Beauty>2</Beauty>
 			<Nutrition>0.06</Nutrition>
 		</statBases>
 		<plant>
@@ -125,9 +125,9 @@
 		<description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Nutrition>0.2</Nutrition>
+			<Nutrition>0.50</Nutrition>
 		</statBases>
-		<pathCost>15</pathCost>
+		<pathCost>14</pathCost>
 		<graphicData>
 			<texPath>Things/Plant/RedBrambles</texPath>
 			<drawSize>1.7</drawSize>
@@ -140,12 +140,14 @@
 			<harvestWork>60</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
 			<leaflessGraphicPath>Things/Plant/Brambles_Leafless</leaflessGraphicPath>
+			<pollutedGraphicPath>Things/Plant/Brambles_Polluted</pollutedGraphicPath>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
 			<topWindExposure>0.15</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+			<pollution>Any</pollution>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
@@ -154,9 +156,9 @@
 		<description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Nutrition>0.2</Nutrition>
+			<Nutrition>0.50</Nutrition>
 		</statBases>
-		<pathCost>15</pathCost>
+		<pathCost>14</pathCost>
 		<graphicData>
 			<texPath>Things/Plant/YellowBrambles</texPath>
 			<drawSize>1.7</drawSize>
@@ -169,12 +171,14 @@
 			<harvestWork>60</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
 			<leaflessGraphicPath>Things/Plant/Brambles_Leafless</leaflessGraphicPath>
+			<pollutedGraphicPath>Things/Plant/Brambles_Polluted</pollutedGraphicPath>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
 			<topWindExposure>0.15</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+			<pollution>Any</pollution>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
