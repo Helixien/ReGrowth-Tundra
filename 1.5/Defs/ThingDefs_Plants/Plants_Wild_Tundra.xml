@@ -75,7 +75,8 @@
 			<fertilitySensitivity>0.2</fertilitySensitivity>
 			<growDays>15</growDays>
 			<harvestWork>75</harvestWork>
-			<leaflessGraphicPath>Things/Plant/_Leafless/TundraScrubsRed_Leafless</leaflessGraphicPath>
+			<leaflessGraphicPath>Things/Plant/_Leafless/RG_Scrubs_Leafless</leaflessGraphicPath>
+			<pollutedGraphicPath>Things/Plant/_Polluted/RG_Scrubs_Polluted</pollutedGraphicPath>
 			<maxMeshCount>16</maxMeshCount>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>8</wildClusterWeight>
