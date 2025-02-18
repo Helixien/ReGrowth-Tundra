@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1447145578
+CRC: 1817200572
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dbd57aa681caedf7536f00e3d156d1c6
+    Hash: 770433e81e83b16460de03fe5f663262
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7859cd501ea75098bcf7e53f1b477c26
@@ -17,6 +17,9 @@ Assets:
 - Assets/Data/2107412614/Textures/Things/Plant/TundraGrass/TundraGrassB.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedE.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessD.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedD.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedE.psd
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraTallGrass/TundraTallGrassB.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/Saxifraga/SaxifragaA.psd
@@ -27,9 +30,11 @@ Assets:
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/RedBrambles/RedBramblesA.psd
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandH.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraGrass/TundraGrassC.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraCotton/TundraCottonB.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraGrass/TundraGrassC.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraCotton/TundraCottonC.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessC.psd
 - Assets/Data/2107412614/Textures/Things/Plant/RimbayWillowA/RimbayWillowA.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/RedBrambles/RedBramblesB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraCotton/TundraCottonE.psd
@@ -40,12 +45,16 @@ Assets:
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandA.psd
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandC.psd
 - Assets/Data/2107412614/Textures/Things/Plant/Saxifraga/SaxifragaB.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedA.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraGrass/TundraGrassA.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedC.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedC.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandE.psd
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandB.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraCotton/TundraCottonF.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/RedBrambles/RedBramblesA.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessC.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandI.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandA.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedA.psd
@@ -54,6 +63,7 @@ Assets:
 - Assets/Data/2107412614/Textures/Things/Plant/TundraTallGrass/TundraTallGrassD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraGrass/TundraGrassB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraTallGrass/TundraTallGrassB.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/YellowBrambles/YellowBramblesA.psd
 - Assets/Data/2107412614/Textures/Things/Plant/YellowBrambles/YellowBramblesB.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraCotton/TundraCottonB.psd
@@ -61,20 +71,27 @@ Assets:
 - Assets/Data/2107412614/Textures/Things/Plant/RimbayWillowA/RimbayWillowB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandE.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraCotton/TundraCottonD.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedC.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedB.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedA.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraTallGrass/TundraTallGrassD.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedD.psd
 - Assets/Data/2107412614/Textures/Things/Plant/RimbayWillowA/RimbayWillowC.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandG.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraCotton/TundraCottonD.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandB.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Polluted/TundraScrubsRed_Polluted/TundraScrubsRed_PollutedE.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandH.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraCotton/TundraCottonF.psd
 - Assets/Data/2107412614/Textures/Things/Plant/RedBrambles/RedBramblesB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/LupineIceland/LupineIcelandG.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraTallGrass/TundraTallGrassA.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessE.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraCotton/TundraCottonE.psd
 - Assets/Data/2107412614/Textures/Things/Plant/Saxifraga/SaxifragaC.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraTallGrass/TundraTallGrassC.psd
+- Assets/Data/2107412614/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessA.psd
 - Assets/Data/2107412614/Textures/Things/Plant/Saxifraga/SaxifragaA.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/YellowBrambles/YellowBramblesB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraCotton/TundraCottonA.psd
@@ -82,10 +99,13 @@ Assets:
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraGrass/TundraGrassD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/RimbayWillowA/RimbayWillowA.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraCotton/TundraCottonC.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessA.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/RimbayWillowA/RimbayWillowC.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraGrass/TundraGrassD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandC.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedE.psd
+- Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/_Leafless/TundraScrubsRed_Leafless/TundraScrubsRed_LeaflessE.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/LupineIceland/LupineIcelandD.psd
 - Assets/Data/ReGrowth2-Tundra/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedB.psd
 - Assets/Data/2107412614/Textures/Things/Plant/TundraScrubsRed/TundraScrubsRedB.psd
