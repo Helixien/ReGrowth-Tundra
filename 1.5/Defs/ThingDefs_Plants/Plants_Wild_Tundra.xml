@@ -53,6 +53,7 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>10</wildClusterWeight>
 			<wildOrder>1</wildOrder>
+			<pollutedGraphicPath>Things/Plant/Grass_Polluted</pollutedGraphicPath>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
